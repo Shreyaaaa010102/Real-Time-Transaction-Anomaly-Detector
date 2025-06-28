@@ -1,0 +1,18 @@
+# ---- Core app ----
+streamlit==1.35.0          # web UI
+pandas==2.2.2              # data handling
+numpy==1.26.4              # numerical ops
+
+# ---- Machine‑learning stack ----
+scikit-learn==1.5.0        # DBSCAN, Isolation Forest, metrics
+scipy==1.13.1              # used internally by scikit‑learn
+
+# ---- Visualisation ----
+matplotlib==3.9.0          # plotting
+seaborn==0.13.2            # prettier plots
+
+# ---- Optional: faster parsing for large CSVs ----
+pyarrow>=15.0.0            # speeds up pandas.read_csv() if installed
+
+# ---- Runtime ----
+python_version >= "3.9" and python_version < "3.13"
